@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Waitech - Online Restaurant Reservation</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Tailwind CSS Saas & Software Landing Page Template"
+    />
+    <meta
+      name="keywords"
+      content="agency, application, business, clean, creative, cryptocurrency, it solutions, modern, multipurpose, nft marketplace, portfolio, saas, software, tailwind css"
+    />
+    <meta name="author" content="Shreethemes" />
+    <meta name="website" content="https://shreethemes.in" />
+    <meta name="email" content="support@shreethemes.in" />
+    <meta name="version" content="1.6.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Css -->
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet" />
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet" />
+    <!-- Main Css -->
+    <link
+      href="assets/libs/@iconscout/unicons/css/line.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/icons.css" />
+    <link rel="stylesheet" href="assets/css/tailwind.min.css" />
+  </head>
+
+  <body
+    class="font-nunito text-base text-black dark:text-white dark:bg-slate-900"
+  >
+    <!-- Loader Start -->
+    <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+    <!-- Loader End -->
+
+    <!-- Start Navbar -->
+    <nav id="topnav" class="defaultscroll is-sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <a class="logo ltr:pl-0 rtl:pr-0" href="index.html">
+          <img
+            src="assets/images/waitech-logo-dark.png"
+            height="24px"
+            width="276px"
+            class="inline-block dark:hidden"
+            alt=""
+          />
+          <img
+            src="assets/images/logo-light.png"
+            class="hidden dark:inline-block"
+            alt=""
+          />
+        </a>
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu">
+            <li><a "index.html" class="sub-menu-item">Landing Page</a></li>
+            <li><a "#" class="sub-menu-item">Blog</a></li>
+            <li><a "#" class="sub-menu-item">Contact</a></li>
+          </ul>
+          <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </nav>
+    <!--end header-->
+    <!-- End Navbar -->
+
+    <!-- Start Hero -->
+    <section
+      class="relative table w-full py-36 overflow-hidden bg-gradient-to-b to-transparent from-indigo-600/20 dark:from-indigo-600/40"
+    >
+      <div class="container">
+        <div
+          class="relative grid md:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]"
+        >
+          <div class="md:col-span-6">
+            <div class="ltr:md:mr-8 rtl:md:ml-8">
+              <h4
+                class="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-black dark:text-white relative"
+              >
+                Online Restaurant
+                <span
+                  class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-indigo-600 relative inline-block"
+                  ><span class="relative text-white">Reservation</span></span
+                >
+                and food delivery
+              </h4>
+              <p class="text-slate-400 text-lg max-w-xl">
+                We're building an online Reservation platform that will make
+                your restaurant booking experience much faster and more
+                convenient for both <b>restaurants</b> and <b>food lovers</b>.
+              </p>
+
+              <div class="subcribe-form mt-6 mb-3">
+                <form class="relative max-w-xl"  id="emailForm">
+                  <input
+                    type="email"
+                    id="subscribe"
+                    name="email"
+                    class="pt-4 ltr:pr-40 rtl:pl-40 pb-4 ltr:pl-6 rtl:pr-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800"
+                    placeholder="Your Email Address :"
+                  />
+                  <button
+                    type="submit"
+                    class="btn absolute top-[2px] ltr:right-[3px] rtl:left-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full"
+                  >
+                    Join the wait list <i class="uil uil-arrow-right"></i>
+                  </button>
+                </form>
+                <!--end form-->
+              </div>
+
+              <span class="text-slate-400 font-medium"
+                >Looking for help?
+                <a href"" class="text-indigo-600"
+                  >Get in touch with us</a
+                ></span
+              >
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="md:col-span-6">
+            <div class="relative">
+              <div
+                class="relative rounded-xl overflow-hidden shadow-md dark:shadow-gray-800"
+              >
+                <div
+                  class="w-full py-72 bg-slate-400 bg-no-repeat bg-top jarallax"
+                  data-jarallax
+                  data-speed="0.5"
+                  style="background: url('./assets/images/food/about.jpeg')"
+                ></div>
+              </div>
+
+              <div
+                class="absolute flex justify-between items-center md:bottom-10 bottom-5 ltr:md:-left-16 rtl:md:-right-16 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-60 m-3"
+              >
+                <div class="flex items-center">
+                  <div
+                    class="flex items-center justify-center h-[65px] min-w-[65px] bg-indigo-600/5 text-indigo-600 text-center rounded-full ltr:mr-3 rtl:ml-3"
+                  >
+                    <i data-feather="monitor" class="h-6 w-6"></i>
+                  </div>
+                  <div class="flex-1">
+                    <h6 class="text-slate-400">Visitor</h6>
+                    <p class="text-xl font-bold">
+                      <span class="counter-value" data-target="30">1</span>
+                    </p>
+                  </div>
+                </div>
+
+                <span class="text-red-600"
+                  ><i class="uil uil-chart-down"></i> 1%</span
+                >
+              </div>
+
+              <div
+                class="absolute xl:top-20 top-40 ltr:xl:-right-20 rtl:xl:-left-20 ltr:lg:-right-10 rtl:lg:-left-10 ltr:-right-1 rtl:-left-1 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 w-60 m-3"
+              >
+                <h5 class="text-xl font-semibold mb-3">Join the waitlist</h5>
+                <div class="flex justify-between mt-3 mb-2">
+                  <span class="text-slate-400">Work in progress</span>
+                  <span class="text-slate-400">13%</span>
+                </div>
+                <div
+                  class="w-full bg-gray-100 dark:bg-gray-800 rounded-full h-[6px]"
+                >
+                  <div
+                    class="bg-indigo-600 h-[6px] rounded-full"
+                    style="width: 13%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end grid-->
+      </div>
+      <!--end container-->
+    </section>
+    <!--end section-->
+    <!-- End Hero -->
+
+    <!-- Start -->
+    <section class="relative md:pb-24 pb-16 overflow-hidden">
+      <div class="container lg mx-auto">
+        <div class="grid grid-cols-1 pb-8 text-center">
+    
+          <h3
+            class="mb-6 mt-8 md:text-4xl text-3xl md:leading-normal leading-normal font-bold"
+          >
+            <span
+              class="after:absolute ltr:after:right-0 rtl:after:left-0 ltr:after:left-0 rtl:after:right-0 after:bottom-1 after:lg:h-3 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/30 relative text-indigo-600"
+              >Launching Soon.</span
+            >
+          </h3>
+
+          <p class="text-slate-400 max-w-xl mx-auto">
+            Waitech is a fast-growing food startup that specializes in
+            restaurant reservations. The company was founded with the mission to
+            make dining out easier and more enjoyable for customers. By
+            providing a platform for restaurant reservations, Waitech aims to
+            simplify the dining experience and make it accessible for everyone.
+          </p>
+        </div>
+        <!--end grid-->
+
+
+     
+    </section>
+    <!--end section-->
+    <!-- End -->
+
+    <!-- Footer Start -->
+    <footer
+      class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200"
+    >
+      <div class="container">
+        <div class="grid grid-cols-12">
+          <div class="col-span-12">
+            <div class="py-[60px] px-0">
+              <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                <div class="lg:col-span-4 md:col-span-12">
+                  <a href"#" class="text-[22px] focus:outline-none">
+                    <img src="assets/images/logo-light.png" alt="" />
+                  </a>
+                  <p class="mt-6 text-gray-300">
+                    Waitech is a fast-growing food startup that specializes in
+                    restaurant reservations. The company was founded with the
+                    mission to make dining out easier and more enjoyable for
+                    customers. By providing a platform for restaurant
+                    reservations, Waitech aims to simplify the dining experience
+                    and make it accessible for everyone.
+                  </p>
+                  <ul class="list-none mt-6">
+                    <li class="inline">
+                      <a
+                        href="https://1.envato.market/techwind"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-shopping-cart align-middle"
+                          title="Buy Now"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="https://dribbble.com/shreethemes"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-dribbble align-middle"
+                          title="dribbble"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="https://www.behance.net/shreethemes"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i class="uil uil-behance" title="Behance"></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="http://linkedin.com/company/shreethemes"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i class="uil uil-linkedin" title="Linkedin"></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="https://www.facebook.com/shreethemes"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-facebook-f align-middle"
+                          title="facebook"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="https://www.instagram.com/shreethemes/"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-instagram align-middle"
+                          title="instagram"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="https://twitter.com/shreethemes"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-twitter align-middle"
+                          title="twitter"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="mailto:support@shreethemes.in"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-envelope align-middle"
+                          title="email"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="inline">
+                      <a
+                        href="https://forms.gle/QkTueCikDGqJnbky9"
+                        target="_blank"
+                        class="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
+                        ><i
+                          class="uil uil-file align-middle"
+                          title="customization"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                  <!--end icon-->
+                </div>
+                <!--end col-->
+
+                <div class="lg:col-span-2 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    Company
+                  </h5>
+                  <ul class="list-none footer-list mt-6">
+                    <li>
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> About us</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Services</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Team</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Pricing</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Project</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Blog</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="#"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Login</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="lg:col-span-3 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    Usefull Links
+                  </h5>
+                  <ul class="list-none footer-list mt-6">
+                    <li>
+                      <a
+                        href="page-terms.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Terms of
+                        Services</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="page-privacy.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Privacy Policy</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="documentation.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Documentation</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="changelog.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Changelog</a
+                      >
+                    </li>
+                    <li class="mt-[10px]">
+                      <a
+                        href="widget.html"
+                        class="text-gray-300 hover:text-gray-400 duration-500 ease-in-out"
+                        ><i class="uil uil-angle-right-b"></i> Widget</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+
+                <div class="lg:col-span-3 md:col-span-4">
+                  <h5 class="tracking-[1px] text-gray-100 font-semibold">
+                    Newsletter
+                  </h5>
+                  <p class="mt-6">
+                    Sign up and receive the latest tips via email.
+                  </p>
+                  <form>
+                    <div class="grid grid-cols-1">
+                      <div class="foot-subscribe my-3">
+                        <label class="form-label"
+                          >Write your email
+                          <span class="text-red-600">*</span></label
+                        >
+                        <div class="form-icon relative mt-2">
+                          <i
+                            data-feather="mail"
+                            class="w-4 h-4 absolute top-3 ltr:left-4 rtl:right-4"
+                          ></i>
+                          <input
+                            type="email"
+                            class="form-input bg-gray-800 border border-gray-800 text-gray-100 ltr:pl-12 rtl:pr-12 focus:shadow-none"
+                            placeholder="Email"
+                            name="email"
+                            required=""
+                          />
+                        </div>
+                      </div>
+
+                      <button
+                        type="submit"
+                        id="submitsubscribe"
+                        name="send"
+                        class="btn bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"
+                      >
+                        Subscribe
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end grid-->
+            </div>
+            <!--end col-->
+          </div>
+        </div>
+        <!--end grid-->
+      </div>
+      <!--end container-->
+
+      <div class="py-[30px] px-0 border-t border-slate-800">
+        <div class="container text-center">
+          <div class="grid md:grid-cols-2 items-center">
+            <div class="ltr:md:text-left rtl:md:text-right text-center">
+              <p class="mb-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                Waitech. Design with
+                <i class="mdi mdi-heart text-red-600"></i> by
+                <a
+                  href="https://shreethemes.in/"
+                  target="_blank"
+                  class="text-reset"
+                  >Waitech Group.</a
+                >.
+              </p>
+            </div>
+
+            <ul
+              class="list-none ltr:md:text-right rtl:md:text-left text-center mt-6 md:mt-0"
+            >
+              <li class="inline">
+                <a href""
+                  ><img
+                    src="assets/images/payments/american-ex.png"
+                    class="max-h-6 inline"
+                    title="American Express"
+                    alt=""
+                /></a>
+              </li>
+              <li class="inline">
+                <a href""
+                  ><img
+                    src="assets/images/payments/discover.png"
+                    class="max-h-6 inline"
+                    title="Discover"
+                    alt=""
+                /></a>
+              </li>
+              <li class="inline">
+                <a href""
+                  ><img
+                    src="assets/images/payments/master-card.png"
+                    class="max-h-6 inline"
+                    title="Master Card"
+                    alt=""
+                /></a>
+              </li>
+              <li class="inline">
+                <a href""
+                  ><img
+                    src="assets/images/payments/paypal.png"
+                    class="max-h-6 inline"
+                    title="Paypal"
+                    alt=""
+                /></a>
+              </li>
+              <li class="inline">
+                <a href""
+                  ><img
+                    src="assets/images/payments/visa.png"
+                    class="max-h-6 inline"
+                    title="Visa"
+                    alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!--end grid-->
+        </div>
+        <!--end container-->
+      </div>
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+
+    <!-- Start Cookie Popup -->
+    <!-- <div class="cookie-popup fixed max-w-lg bottom-3 ltr:right-3 rtl:left-3 left-3 sm:left-0 sm:right-0 mx-auto bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md py-5 px-6 z-50">
+            <p clas"https://shreethemes.in" target="_blank" class="text-emerald-600 dark:text-emerald-500 font-semibold">use of cookies</a></p>
+            <div class="cookie-popup-actions ltr:text-right rtl:text-left">
+                <button class="absolute border-none bg-none p-0 cursor-pointer font-semibold top-2 ltr:right-2 rtl:left-2"><i class="uil uil-times text-dark dark:text-slate-200 text-2xl"></i></button>
+            </div>
+        </div> -->
+    <!--Note: Cookies Js including in plugins.init.js (path like; assets/js/plugins.init.js) and Cookies css including in _helper.scss (path like; scss/_helper.scss)-->
+    <!-- End Cookie Popup -->
+
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 ltr:right-5 rtl:left-5 h-9 w-9 text-center bg-indigo-600 text-white leading-9"
+      ><i class="uil uil-arrow-up"></i
+    ></a>
+    <!-- Back to top -->
+
+    <!-- Switcher -->
+    <div class="fixed top-[30%] -right-2 z-50">
+      <span class="relative inline-block rotate-90">
+        <input type="checkbox" class="checkbox opacity-0 absolute" id="chk" />
+        <label
+          class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8"
+          for="chk"
+        >
+          <i class="uil uil-moon text-[20px] text-yellow-500"></i>
+          <i class="uil uil-sun text-[20px] text-yellow-500"></i>
+          <span
+            class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] w-7 h-7"
+          ></span>
+        </label>
+      </span>
+    </div>
+    <!-- Switcher -->
+
+    <!-- LTR & RTL Mode Code -->
+
+    <!-- LTR & RTL Mode Code -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="assets/libs/jarallax/jarallax.min.js"></script>
+    <script src="assets/libs/tobii/js/tobii.min.js"></script>
+    <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/js/plugins.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+const form = document.getElementById('emailForm');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const recipient = document.getElementById('subscribe').value;
+  const subject = 'Waitech Waitlist join.';
+  const body = 'Sign me up!';
+
+  window.location.href = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+});
+</script>
+
+    <!-- JAVASCRIPTS -->
+  </body>
+</html>
